@@ -1,0 +1,162 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+   
+}
+
+.container h2{
+    text-decoration: underline;
+    font-family: cursive;
+}
+
+.card-container h2{
+    text-decoration: underline;
+    font-family: cursive;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #1d1d1d 3px solid;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+    line-height: 1.25em;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #cfcfcf;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+    bottom: 0;
+    width: 100%;
+    
+}
+
+footer p {
+    margin: 0;
+    
+}
+
+
+.hero {
+    background: #66bfbf;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+    background-image: url('images/helpingHands.jpeg');
+    background-size: cover;
+    height: 50vh;
+   
+}
+
+.mission {
+    background: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about-container h2{
+    text-decoration: underline;
+}
+.top-section{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.donate {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.donate-bottom-section {
+    text-align:center;
+    background-color: #e6f6ff;
+    padding:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .donate-card-item {
+    text-align: center;
+    background-color: white;
+    width:140px;
+    border-radius: 9px;
+    padding: 16px;
+    margin: 15px;
+   
+  }
+  .donate-card-name{
+    padding: 0%;
+    font-size: medium;
+  }
+  .donate-card-price{
+    font-size: small;
+  }
+  .donate-image {
+    height: 150px;
+    width: 150px;
+  }
+  .btn{
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgb(139, 230, 233);
+    border-radius: 60px;
+
+  }
+
+.contact {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
