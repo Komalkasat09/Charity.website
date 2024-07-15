@@ -1,2 +1,2 @@
 # Charity.website
-Charity website using HTML and CSS
+Charity website project created using HTML and CSS 
